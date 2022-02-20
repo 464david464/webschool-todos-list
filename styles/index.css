@@ -88,19 +88,29 @@ li>button {
     float: right;
     color: #025f70;
     font-weight: 800;
+    background-color: transparent !important;
 }
-
+li>button:hover{
+    color: #001b1f;
+}
+li>button:active{
+    color: #007385;
+}
 input {
     border-radius: 5px;
     min-width: 65%;
     padding: 5px;
     border: none;
+    outline: none;
+}
+input:focus{
+    box-shadow: 0px 0px 1px 2px rgba(39, 39, 39, 0.541);
 }
 
 
 .done {
     background: #51DF70 !important;
-    color: #00891E;
+    color: #00891E !important;
 }
 
 .delete {
